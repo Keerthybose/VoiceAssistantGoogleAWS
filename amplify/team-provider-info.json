@@ -1,0 +1,19 @@
+{
+    "aws": {
+        "awscloudformation": {
+            "AuthRoleName": "lexsample-aws-20190830145218-authRole",
+            "UnauthRoleArn": "arn:aws:iam::730343359584:role/lexsample-aws-20190830145218-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::730343359584:role/lexsample-aws-20190830145218-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "lexsample-aws-20190830145218-deployment",
+            "UnauthRoleName": "lexsample-aws-20190830145218-unauthRole",
+            "StackName": "lexsample-aws-20190830145218",
+            "StackId": "arn:aws:cloudformation:us-east-1:730343359584:stack/lexsample-aws-20190830145218/ed7e2e70-cb07-11e9-9259-0a56ba5f6f9e"
+        },
+        "categories": {
+            "auth": {
+                "lexsample9f0aea97": {}
+            }
+        }
+    }
+}

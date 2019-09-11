@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "lexsample",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authlexsample9f0aea97",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

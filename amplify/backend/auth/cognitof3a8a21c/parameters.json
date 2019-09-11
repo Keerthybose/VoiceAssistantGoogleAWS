@@ -1,0 +1,25 @@
+{
+    "identityPoolName": "lexsample_identitypool_a2e6f8a1",
+    "allowUnauthenticatedIdentities": true,
+    "openIdLambdaRoleName": "lexsama2e6f8a1_openid_lambda_role",
+    "authSelections": "identityPoolOnly",
+    "resourceName": "cognitof3a8a21c",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    },
+    "unauthRoleArn": {
+        "Fn::GetAtt": [
+            "UnauthRole",
+            "Arn"
+        ]
+    }
+}

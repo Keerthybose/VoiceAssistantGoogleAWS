@@ -1,0 +1,25 @@
+{
+    "resourceName": "YoutubeSkills",
+    "botName": "YoutubeSkills",
+    "intents": [
+        {
+            "slots": [
+                {
+                    "name": "Playlist",
+                    "type": "AMAZON.MusicAlbum",
+                    "prompt": "Which playlist?",
+                    "required": true,
+                    "customType": false
+                }
+            ],
+            "utterances": [
+                "launch youtube"
+            ],
+            "intentName": "youtube",
+            "newSlotTypes": []
+        }
+    ],
+    "outputVoice": "Joanna",
+    "sessionTimeout": 5,
+    "coppa": false
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Googleapp/Googleapp.iml" filepath="$PROJECT_DIR$/Googleapp/Googleapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LexSampleapp/LexSampleapp.iml" filepath="$PROJECT_DIR$/LexSampleapp/LexSampleapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Voice Assistant_Google_AWS.iml" filepath="$PROJECT_DIR$/Voice Assistant_Google_AWS.iml" />
+    </modules>
+  </component>
+</project>
